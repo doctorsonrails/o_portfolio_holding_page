@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 
 gem 'haml'
 gem 'jquery-rails'
+gem 'unicorn'
 
 group :development do
   gem 'sqlite3'
