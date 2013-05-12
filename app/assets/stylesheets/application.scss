@@ -86,3 +86,28 @@ $btn_color_2: darken(#5bb900, 10%);
 		0px 0px 0px rgba(000,000,000,0),
 		0px 0px 0px rgba(255,255,255,0);
 }
+
+footer {
+  display:block;
+  margin:0px auto;
+  padding:20px 50px 10px 50px ;
+  overflow:hidden;
+  width:480px;
+  border-bottom:1px solid #666;
+
+  a {
+      display:block;
+      float:left;
+      img {
+          height:30px;
+      }
+  }
+  .meducation {
+  
+      margin:0px 30px;
+  }
+
+  .podmedics {
+    }
+  .dor {}
+}
