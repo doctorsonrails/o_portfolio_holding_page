@@ -1,0 +1,17 @@
+!!!
+%html
+    %head
+        %title oPortfolio 
+        = stylesheet_link_tag    "application", :media => "all"
+        = javascript_include_tag "application" 
+        = csrf_meta_tags
+        
+        %link{href: 'http://fonts.googleapis.com/css?family=Open+Sans:400,300', rel:'stylesheet', type:'text/css'}
+    %body
+        #container
+            #content
+                %h1 Does ePortfolio drive you to despair?
+                %p Too slow? Uninituitve? Missing loads of features? No mobile access?
+                %p We're going to change all that! We're making a portfolio that has everything that medics want. It'll be free to for the NHS to use, open-source, fast, modern and feature-rich.
+
+                =yield
