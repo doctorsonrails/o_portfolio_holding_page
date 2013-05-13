@@ -38,13 +38,24 @@ body {
         width:600px;
     }
 }
+
 h1 {
+    display:inline;
+    font-size:12px;
+    margin-right:10px;
+    position:absolute;
+    color:#696969;
+    top:292px;
+    left:90px;
+}
+
+h2 {
   font-size:20pt;
   font-weight:400;
   margin-top:0px;
 }
 
-h2 {
+h3 {
   font-weight:400;
   font-size: 17pt;
   margin-top:30px;

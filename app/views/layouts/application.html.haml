@@ -1,28 +1,29 @@
 !!!
 %html
     %head
-        %title oPortfolio - The Open ePortfolio Alternative For Medics
         = stylesheet_link_tag    "application", :media => "all"
         = javascript_include_tag "application" 
         = csrf_meta_tags
+
         %link{href: 'http://fonts.googleapis.com/css?family=Open+Sans:400,300', rel:'stylesheet', type:'text/css'}
 
+        %title oPortfolio - The Open ePortfolio Alternative For Medics
         %meta{name: "title", content: "oPortfolio - The Open ePortfolio Alternative For Medics"}
         %link{href: image_path("person.jpg"), rel: 'image_src'}
 
     %body
+        %h1 oPortfolio
         #container
             #content
-                %h1 Is your ePortfolio driving you to despair?
+                %h2 Is your ePortfolio driving you to despair?
                 %p Too slow? Uninituitve? Missing loads of features? No mobile access?
-                %p We're going to change all that! We're making a portfolio that has everything that medics want. It'll be free to for the NHS to use, open-source, fast, modern, feature-rich, portable and interoperable between deaneries.
+                %p We're going to change all that! We're making oPortfolio - the open portfolio that is what medics want. It'll be free to for the NHS to use, open-source, fast, modern, feature-rich, portable and interoperable between deaneries.
 
                 =yield
         %footer 
             =link_to image_tag("podmedics.png", alt: "Podmedics"), "http://kaizen-ursus.com", class: 'podmedics'
             =link_to image_tag("meducation.png", alt: "Meducation"), "https://www.meducation.net", class: 'meducation'
             =link_to image_tag("dor.png", alt: "Doctors on rails"), "http://www.doctorsonrails.org", class: 'dor'
-
 
 :javascript
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
