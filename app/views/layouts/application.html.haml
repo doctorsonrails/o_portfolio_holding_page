@@ -1,12 +1,15 @@
 !!!
 %html
     %head
-        %title oPortfolio 
+        %title oPortfolio - The Open ePortfolio Alternative For Medics
         = stylesheet_link_tag    "application", :media => "all"
         = javascript_include_tag "application" 
         = csrf_meta_tags
-        
         %link{href: 'http://fonts.googleapis.com/css?family=Open+Sans:400,300', rel:'stylesheet', type:'text/css'}
+
+        %meta{name: "title", content: "oPortfolio - The Open ePortfolio Alternative For Medics"}
+        %link{href: image_path("person.jpg"), rel: 'image_src'}
+
     %body
         #container
             #content
